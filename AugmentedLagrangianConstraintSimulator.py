@@ -17,7 +17,7 @@ class Simulator:
 
 
 
-        self.border_condition_types = ('neu', 'dir', 'neu', 'dir') #left, top, right, bottom
+        self.border_condition_types = ('neu', 'dir', 'neu', 'dir') #top, left, bottom, right
         self.border_condition_values = (0, 1, 0, 0)
 
         self.U = np.zeros_like(self.X).astype(float)
